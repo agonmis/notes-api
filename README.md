@@ -13,3 +13,10 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload
 ```
+
+# Endpoints
+- create note
+- read notes
+- read note
+- update note
+- delete note
