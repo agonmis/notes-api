@@ -1,7 +1,12 @@
-# Programme installieren
-
+# Virtuelle Umgebung einrichten
 ```bash
-pip install fastapi uvicorn
+python -m venv venv
+venv/Scripts/activate
+```
+
+# Programme installieren
+```bash
+pip install -r requirements.txt
 ```
 
 # Server starten
