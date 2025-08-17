@@ -15,8 +15,8 @@ uvicorn main:app --reload
 ```
 
 # Endpoints
-- create note
-- read notes
-- read note
-- update note
-- delete note
+- POST /notes
+- GET /notes
+- GET /notes/{id}
+- PUT /notes/{id}
+- DELETE /notes/{id}
